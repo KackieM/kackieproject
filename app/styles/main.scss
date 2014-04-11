@@ -15,6 +15,12 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 body {
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: 28px;
+    font-style: oblique;
+    font-weight: 100px;
+    font-variant: 50px;
+    font-size: 20px;
+    font-stretch: 40px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -23,6 +29,8 @@ body {
 .footer {
     padding-left: 15px;
     padding-right: 15px;
+    
+
 }
 
 /* Custom page header */
@@ -46,15 +54,20 @@ body {
         margin-bottom: 0;
         line-height: 40px;
         padding-bottom: 19px;
-        font-style: 
+        font-style: oblique;
+        font-size: 30px;
     }
-}
+
 
 /* Custom page footer */
 .footer {
     padding-top: 19px;
-    color: #777;
+    // color: #777;
     border-top: 1px solid #e5e5e5;
+    text-rendering: 100px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
 }
 
 .container-narrow > hr {
@@ -76,6 +89,11 @@ body {
     margin: 40px 0;
     p + h4 {
         margin-top: 28px;
+        font-style: oblique;
+        font-weight: 100px;
+        font-variant: 50px;
+        font-size: 20px;
+        font-stretch: 40px;
     }
 }
 
