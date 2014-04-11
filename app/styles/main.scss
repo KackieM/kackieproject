@@ -13,8 +13,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -26,8 +26,19 @@ body {
 }
 
 /* Custom page header */
-.header {
-    border-bottom: 1px solid #e5e5e5;
+// .header {
+    // border-bottom: 1px solid #e5e5e5;}
+.header .logo-image {
+                background-image: url("/wp-content/uploads/2013/10/logo-2x.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+                -webkit-background-size: auto 100%;
+                -moz-background-size: auto 100%;
+                -o-background-size: auto 100%;
+                background-size: auto 100%;
+            }
+            header.header .logo-image img { visibility: hidden; }
+
 
     /* Make the masthead heading the same height as the navigation */
     h3 {
@@ -35,6 +46,7 @@ body {
         margin-bottom: 0;
         line-height: 40px;
         padding-bottom: 19px;
+        font-style: 
     }
 }
 
@@ -90,4 +102,52 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
-}
+
+    // THEKACKIEPROJECTCSS
+
+    /* Slideshow */
+    .slide-caption,
+    .slide-caption p { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+
+
+/* Navigation */
+    nav.navigation,
+    nav.navigation-mobile,
+    nav.categories { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+
+    header.header .logo-image {
+                background-image: url("/wp-content/uploads/2013/10/logo-2x.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+                -webkit-background-size: auto 100%;
+                -moz-background-size: auto 100%;
+                -o-background-size: auto 100%;
+                background-size: auto 100%;
+    }
+
+
+        /* Font Face */
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+        blockquote { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+        /* Forms */
+        label { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+        /* Logo */
+        header.header .logo { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+        /* Navigation */
+        nav.navigation,
+        nav.navigation-mobile,
+        nav.categories { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+        /* Slideshow */
+        .slide-caption,
+        .slide-caption p { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+        /* Widgets */
+        .widget_recent_tweet .tweet-text, .widget_pages li a, .widget_subpages li a, .widget_nav_menu li a, .widget_archive li, .widget_categories li, .widget_archive li li, .widget_categories li li, .widget_product_categories li { font-family: "Fjalla One", Helvetica, Arial, sans-serif !important; }
+
+    }
+    
+
+
+
+    
